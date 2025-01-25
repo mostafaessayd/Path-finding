@@ -1,0 +1,95 @@
+body {
+  background: url("wallpaperflare.com_wallpaper (1).jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.container {
+  width: 19%;
+  height: 140px;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.cell {
+  border: 1px solid;
+}
+
+button {
+  background-color: transparent;
+}
+
+.cvc {
+  display: flex;
+}
+
+.spv {
+  width: 81%;
+  height: 140px;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+td {
+  width: 60px;
+  height: 60px;
+}
+
+td img {
+  width: 60px;
+  height: 60px;
+}
+
+.matrix-container {
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  height: 450px;
+  width: 50%;
+}
+
+.original-matrix-container {
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  height: 450px;
+  width: 50%;
+}
+
+input {
+  background-color: transparent;
+}
+
+.show {
+  display: flex;
+}
+
+.ddd {
+  border: 1px solid black;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.37);
+}
+
+.battery {
+  width: 8.7%;
+  height: 140px;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+#statmentOfBattery {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  background-image: url('loading-battery.gif');
+  background-size: contain;
+}
+
+.alert {
+  width: 500px;
+  height: 500px;
+  font-size: 16px;
+  background-color: yellow;
+}

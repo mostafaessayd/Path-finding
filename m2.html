@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Colorful Matrix</title>
+  <link rel="stylesheet" href="file.css">
+</head>
+
+<body>
+  <div class="ddd">
+    <div class="cvc">
+      <div class="container">
+
+        <form id="matrixForm">
+          <label for="columns" style="margin-left: 30px;">Number of Columns</label>
+          <input type="number" id="columns" name="columns" min="1" required
+            style="margin-left: 30px;width: 125px;margin-top: 10px;"><br>
+          <label for="rows" style="margin-left: 30px;">Number of Rows</label>
+          <input type="number" id="rows" name="rows" min="1" required
+            style="margin-left: 30px;width: 125px;margin-top: 10px;">
+          <button type="submit" style="border-radius: 7px; margin-left: 50px; margin-top: 10px;">START GAME</button>
+        </form>
+        
+      </div>
+      <div class="spv"><br>
+        <h1>&nbsp;&nbsp;Help the robot find his lost yuonger brother , Bemo using
+          A<sup>*</sup></h1>
+      </div>
+      <div class="battery"><button id = "statmentOfBattery" onclick="showStatment()"></button></div>
+    </div>
+    <div class="show">
+      <div class="original-matrix-container" id="original-matrix-container"></div>
+      <div class="matrix-container" id="matrixContainer"></div>
+    </div>
+  </div>
+  <script src="file.js"></script>
+</body>
+
+</html>
