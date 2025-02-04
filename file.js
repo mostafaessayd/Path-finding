@@ -279,7 +279,6 @@ function ptiority(path){
 }
 
 function showStatment(){
-    generateMatrix(columns, rows);
-    // var statment = Battery.toString();
-    // alert("Battery : " + statment + "%\n" + "time charge : " + cur);
+    var statment = Battery.toString();
+    alert("Battery : " + statment + "%\n" + "time charge : " + cur);
 }
