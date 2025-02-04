@@ -26,10 +26,6 @@ document.getElementById("matrixForm").addEventListener("submit", function (event
     console.log(Battery);
 });
 
-function f() {
-    alert('lll');
-    generateMatrix(columns, rows);   
-}
 
 function generateMatrix(columns, rows) {
 
@@ -283,6 +279,7 @@ function ptiority(path){
 }
 
 function showStatment(){
-    var statment = Battery.toString();
-    alert("Battery : " + statment + "%\n" + "time charge : " + cur);
+    generateMatrix(columns, rows);
+    // var statment = Battery.toString();
+    // alert("Battery : " + statment + "%\n" + "time charge : " + cur);
 }
