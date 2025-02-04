@@ -27,8 +27,10 @@ document.getElementById("matrixForm").addEventListener("submit", function (event
 });
 
 function f() {
+    alert('lll');
     generateMatrix(columns, rows);   
 }
+
 function generateMatrix(columns, rows) {
 
       startCell[0] = Math.floor(Math.random() * (rows));
